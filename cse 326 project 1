@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styles 4 U</title>
+  <style>
+.box {
+      color: white;
+      font-family: sans-serif;
+      background: black;
+      padding: 10px;
+    }
+.content {
+  max-width: 800px;
+  margin: auto;
+}
+</style>
+</head>
+
+<body style="background:#33FFCC;">
+<div class="content">
+  <h2 style="font-size: 30px"class="box">"What you wear is how you present yourself to the world, especially today, when human contacts are so quick. Fashion is instant language."—<i>Miuccia Prada</i></h2>
+  <center><img src= "C:\Users\hp\Downloads\product-page-gmc.png"alt="boys fashion" width="800" height="350" ;></center>
+  <p style="font-size:20px;">Fashion has gone through a lot of changes throughout history. Once, it was pretty common for men to wear loincloths and not much else. At another time in history, men wore tights. Fashion evolves over time as new styles become popular and new clothing technologies are made available.</p>
+  <p style="font-size:20px;">Below is an epic list of men’s styles with a photo example of each showcasing nice outfits for guys for each respective style.</p>
+ <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+ <h2>1.<u>Biker</u></h2>
+<center><img src="C:\Users\hp\Downloads\motorcycles.jpg" alt="boys fashion" width="800" height="400" ;></center>
+  <p style="font-size:20px;">Biker fashion has an unmistakable connection to the alternative scene. From the rebellious spirit of the biker lifestyle to the inspiration from biker gear that’s seeped into alternative fashion staples, biker fashion is forever intertwined with punk and rock style</p>
+ <h2>Tips</h2>
+  <p style="font-size:20px;">One or two leather jackets, boots and some jeans is all you need to roll the biker fashion. In terms of tshirts, go for blacks, grey, and whites or even denim shirts. For jewelry, you can add up chains and rings.</p>
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/5W1vfqCnLCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+ <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+ <h2>1.<u>European</u></h2>
+<center><img src="C:\Users\hp\Downloads\european-style-men-may072021.jpg" alt="boys fashion" width="800" height="400" ;></center>
+  <p style="font-size:20px;">European fashions are most easily recognized by their clean, simple lines. The cut of almost all pieces of clothing, from suits to dresses, have a sleek, geometric appearance. You should look for clothes that are similarly simple in shape, with clean, elegant lines.</p>
+ <h2>Tips</h2>
+  <p style="font-size:20px;">Avoid wearing lots of bright colors, graphics and American labels and sports team apparel. Instead, dress in more muted colors like gray, navy and black and wear simple clothing</p>
+<iframe width="420" height="345"src="https://www.youtube.com/embed/tkddCFbi2Fo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<h2>1.<u>Minimalist</u></h2>
+<center><img src="C:\Users\hp\Downloads\minimalist-style-men-may072021.jpg" alt="boys fashion" width="800" height="400" ;></center>
+  <p style="font-size:20px;">Minimalism is a trend that has spread to all things. It has become popular in home design and in fashion, a slimming down and a toning down, an elimination of excess. The fashion of minimalism is all about sleek silhouettes, subdued colors and simple style.</p>
+ <h2>Tips</h2>
+  <p style="font-size:20px;">Wear a limited color palette to create a minimalist look. Wear all black and gray, all gray and navy, white and black, etc. Minimalism is about simple elegance, not flash. To that end, wear patterns only sparingly. Your clothes should fit perfectly.</p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/JZ9rNE6ecqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+</div>
+</body>
+
+</html>
+  

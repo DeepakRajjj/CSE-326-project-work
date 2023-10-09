@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #new{
+            padding: 30px;
+            /* padding-right: 10%; */
+            background-color: rgb(255, 42, 0);      
+            /* rgb(0, 0, 104 */
+           max-width: 300px;
+           border-radius: 10px;
+           display: flex;
+           flex-direction: column;
+        }
+        h1{
+            text-align: left;
+            font-family: 'poppins',sans-serif;
+            color: #ffff;
+        }
+        label{
+            font-weight: 500;
+            font-family: 'poppins',sans-serif;
+            color: #ffff;
+        }
+        button{
+            padding: 10px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <form name="myform" id="new" onsubmit="return(validateform());">
+        <h1>Don't have an account?!Want to join us?!</h1>
+      
+        <label>Name
+        <input type="text" placeholder="First Name Last Name">
+        <span id="errorname" class="error"></span>
+    </label><br><br>
+
+        <label>Email ID:
+        <input type="text" placeholder="Email ID"> 
+        <span id="erroremail" class="error"></span>
+        </label><br><br>
+
+        <label>Select city
+        <select> 
+            <option value="Patna">Patna</option> 
+            <option value="Delhi">Delhi</option> 
+            <option value="Goa">Goa</option> 
+            <option value="Shimla">Shimla</option> 
+            <span id="errorcity" class="error"></span>
+        </select>
+    </label><br><br>
+
+        <label>Gender:
+       <input type="radio" value="Male">Male
+            <input type="radio" value="Female">Female
+            <input type="radio" value="Other">Other 
+            <span id="errorgender" class="error"></span>
+        </label><br><br>
+
+        <label>Password:
+        <input type="text" placeholder="Password">
+        <span id="errorpass" class="error"></span>
+    </label><br><br>
+
+        <label>
+    <input type="checkbox">I agree to the terms and conditions</p>
+        <span id="errorcheck" class="error"></span>
+    </label>
+        <input type="submit">
+        <input type="Reset">
+    </form>
+</div>
+    <script type="text/javascript">
+         
+        function validateform(){  
+            var name=document.myform.name.value;  
+            // var password=document.myform.password.value;  
+  
+        if (name==null || name==""){  
+            alert("Name can't be blank");  
+            return false;  
+        }
+
+    </script>
+</body>
+</html>

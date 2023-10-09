@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 10px;
+     
+    }
+    #card{
+      
+      background-color: rgb(8, 58, 209);
+      border-radius: 10px;
+      max-width: 350px;
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: ;
+
+    }
+    h1{
+      color: rgb(255, 255, 255);
+    }
+    .topic{
+      color: rgb(255, 255, 255);
+    }
+    input{
+  
+    }
+  </style>
+</head>
+<body>
+  <div id="card">
+    <h1>Don't have an account? Want to join us?!</h1>
+    <label for="fname" class="topic"><b>name:</b> 
+    <input type="text" placeholder="Enter your name">
+  </label>
+    <label for="femail" class="topic"><b>Email Id:</b>   
+      <input type="text" placeholder="Enter your Email">
+    </label>
+   <label for="fcity" class="topic"><b>City:</b>  
+      <select id="">
+        <option value="city1">bihar</option>
+        <option value="city1">up</option>
+        <option value="city1">delhi</option>
+        <option value="city1">haryana</option>
+        <option value="city1">punjab</option>
+      </select>
+    </label>
+   <label for="fgender" class="topic"><b>Gender:</b>   
+    <input type="checkbox">Male
+    <input type="checkbox">Female
+    <input type="checkbox">Other
+  </label>
+ <label for="fpass" class="topic"><b>Password:</b>   
+  <input type="text" placeholder="Enter your password">
+</label>
+<b style="color: yellow;">&nbsp;&nbsp;&nbsp;I agree to the terms and conditions<input type="checkbox"></b>
+<span>
+<button id="submit" style="max-width: 30%;"><b>Submit</b></button>
+<button id="reset" style="max-width: 30%;"><b>Reset</b></button>
+</span>    
+  </div>
+
+  <script>
+    let x=document.getElementById("submit")
+    x.onclick=function(){
+      alert("hello")
+    }
+  </script>
+</body>
+</html>

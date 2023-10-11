@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #first{
+            border: 5px solid black;
+            box-sizing: border-box;
+            background-color:yellow;
+            display:inline-block;
+            width: 300px;
+            height: 200px;
+           
+        }
+        #second{
+            border: 5px solid black;
+            box-sizing: border-box;
+            background-color:yellow;
+            display:inline-block;
+            width: 300px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="first">Hello Raj</h1>
+    <h1 id="second">Hello Deepak</h1>
+    <script>
+        let x = document.getElementById("first");
+        x.addEventListener(onclick,change());
+        change()
+        {
+            x.style.color="green";
+        }
+    </script>
+</body>
+</html> 
